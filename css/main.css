@@ -1261,7 +1261,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #52a4ff;
+    background: #504bd2;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2827,5 +2827,10 @@ header.header {
   }
   .comments {
     padding: 10px 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .post-body {
+    font-size: 0.9em;
   }
 }
